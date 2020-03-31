@@ -1,4 +1,3 @@
-
 body{
 	background-color: #121212;
 	margin: 0px;
@@ -27,16 +26,24 @@ img{
 .logo{
 	width: 400px;
 	height: 300px;
-   /*  margin-right: 1475px;
-    margin-top: -100px;*/
 }
- .col-md-4:hover .card-img-top1{
-    transform: scale(1.04);
+ .col-xl-6:hover img{
+    transform: scale(1.06);
+    border:4px solid white;
   }
-  .col-xl-6:hover img{
-  	border:4px solid white;
-  }
-  .form{
+
+.gird18{
+    background-color: #E2E6EB;
+    height: 80px;
+    border-radius: 20px;
+    line-height: 70px;
+    font-size: 25px;
+}
+span{
+	color: #FF0068;
+}
+
+ .form{
       color: white;
   }
   .form-row{
@@ -44,7 +51,6 @@ img{
       flex-direction: column;
       margin-left: 35%;
       border-radius: 10px;
- 
   }
   .buton{
       align-items: center;
@@ -52,7 +58,7 @@ img{
       height: 40px;
       width: 8%; 
       border: 1px solid white;
-      margin-left: 47.5%;
+      margin-left: 2.5%;
   }
 .footer{
        background-color: #FF0068;
@@ -110,10 +116,16 @@ img{
     height: 55vh;
   }
   form{
-    margin-right:22%;
+    margin-right:25%;
   }
   .buton{
-     width: 37%;
+     width: 30%;
+     margin-left:35%;
+  }
+  .gird18{
+  	width: 70%;
+  	height: 99%;
+  	margin-left: 15%;
   }
 	
 }

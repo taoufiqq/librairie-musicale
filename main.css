@@ -1,56 +1,121 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 body{
-    background-color: black;
-}
-img{
-    width: 100%;
-    height: 435px;
-    border-radius: 20px;
-}
-.col-md-4 :hover img{
-    border: 2px solid #FF0068;
-}
+  background-color: #121212;
 
-
-.container{
-    max-width: 2000px;
+}
+header{
+  background-image: url('pics/img.jpg');
+  background-size: 100% 100%;
+  height:100vh;
 }
 h1{
-    text-align: center;
-    color: white;
-    font-size: 450%;
-    margin-bottom: 43px;
+  color: white;
+  font-size: 55px;
+  margin-top: 1%;
 }
-
-.container1 {
-    position: relative;
-    text-align: center;
-    color: white;
+h2{
+  color: white;
+  font-size: 35px;
+  margin-top: 1%;
+}
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+/*.logo{
+     margin-right: 1475px;
+    margin-top: -100px;
+}*/
+.col:hover .card-img-top1{
+    transform: scale(1.05);
+    border:4px solid white;
   }
-  .centered {
-    position: absolute; 
-    top: 30%;
-    left: 50%;
-    /* transform: translate(-50%, -50%); */ 
-    font-size: xx-large;
- 
+.form{
+      color: white;
   }
-  .add{
+.form-row{
+      display: flex;
+      flex-direction: column;
+      margin-left: 35%;
+      border-radius: 10px;
+  }
+.buton{
+      align-items: center;
+      border-radius: 15px;
+      height: 40px;
+      width: 8%; 
+      border: 1px solid white;
+      margin-left: 47.5%;
+  }
+.add{
       color: #FF0068;
       text-align: center;
       margin-bottom: -83px;
   }
-  .form{
-      color: white;
+
+.footer{
+       background-color: #FF0068;
+       flex-basis: 100%;
+       height: 50px; 
+       display: flex;
+       flex-wrap: wrap;
+       margin-top: 6%;
   }
-  .form-row{
-      display: flex;
-      flex-direction: column;
-      margin-left: 30%;
+.footer span{
+       color:#707070; 
+       font-family: "Segoe UI" ;
+       font-weight: normal;
+   }
+.footer .S1{
+    float: left;
+    margin-top: 10px;
+    font-size: 21px;
+    font-family: "Segoe UI";
+    font-weight: normal;
+    color: white;
+    margin: auto;
+   }
+@media(max-width: 1340px){
+  
+  img{
+    width: 350px;
+    height: 300px;
+  }
+  header{
+    height: 75vh;
+  } 
+}
+  
+@media(max-width: 1100px){
+  
+  img{
+    width: 300px;
+    height: 250px;
+  }
+    header{
+    height: 70vh;
+  } 
+}
+@media(max-width: 940px){
+  
+  img{
+    width: 248px;
+    height: 200px;
+  }
+  header{
+    height: 55vh;
+  }
+  form{
+    margin-right:22%;
   }
   .buton{
-      align-items: center;
-      /* width: 20%; */
-      /* height: 50%; */
-      border: 1px solid white;
-      margin-left: 45%;
+     width: 37%;
   }
+ /* .logo{
+    margin-bottom: -29%;
+  }*/
+}
